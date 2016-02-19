@@ -1,0 +1,26 @@
+.grid {
+  &__row {
+    lost-utility: clearfix;
+    lost-center: $grid-max;
+  }
+
+  &__eighth {
+    lost-column: 1/8 0;
+  }
+
+  &__twothirds {
+    lost-column: 2/3 0;
+  }
+
+  &__third {
+    lost-column: 1/3 0;
+  }
+
+  &__quarter {
+    lost-column: 1/4 0;
+  }
+
+  &__half {
+    lost-column: 1/2 0;
+  }
+}

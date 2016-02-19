@@ -1,0 +1,11 @@
+@import '../variables.scss';
+
+.root {
+  padding: 20px;
+}
+
+.description {
+  margin: 0 0 10px;
+  font-size: $typesize-x-small;
+  color: $palette-gray-base;
+}

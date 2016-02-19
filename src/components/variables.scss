@@ -1,0 +1,75 @@
+/*
+ * Colors
+ * ========================================================================== */
+
+ $palette-brand-base: #479CFF;
+ $palette-brand-dark: #227BE4;
+ $palette-brand-text: #FFF;
+
+ $palette-red-base: #D0012B;
+
+ $palette-white-base: #FFF;
+ $palette-black-base: #000;
+ $palette-gray-base: #9AA1AA;
+
+ $palette-gray-light: hsla(0, 0%, 91%, 1);
+ $palette-gray-x-light: #F6F6F6;
+ $palette-gray-text: #A4AAB2;
+ $palette-gray-text-x-light: #9AA1AA;
+ $palette-gray-stroke: #E6E5E6;
+ $palette-gray-stroke-dark: #CDCDCD;
+
+/*
+ * Typography
+ * ========================================================================== */
+
+ $font-regular: "maison_neuebook", Arial, Roboto, sans-serif;
+ $font-black: "maison_neuebook", Arial, Roboto, sans-serif;
+ $font-bold: "maison_neuebook", Arial, Roboto, sans-serif;
+ $font-medium: "maison_neuebook", Arial, Roboto, sans-serif;
+
+ $typesize-x-small: 13px;
+ $typesize-small: 14px;
+ $typesize-base: 15px;
+ $typesize-large: 17px;
+
+ /*
+  * Layout
+  * ========================================================================== */
+
+ $grid-max: 960px;
+
+
+/*
+ * Buttons
+ * ========================================================================== */
+
+ $button-base-height: 44px;
+ $button-base-padding: 0 50px;
+ $button-base-font-size: .8rem;
+ $button-base-transition: background-color .5s;
+ $button-base-rounding: $button-base-height;
+
+/*
+ * Inputs
+ * ========================================================================== */
+
+ $base-input-padding: 10px;
+ $base-input-border: 1px solid $palette-gray-stroke;
+ $base-input-border-radius: 5px;
+ $base-input-width: 100%;
+
+/*
+ * Media queries breakpoints
+ * ========================================================================== */
+
+ $screen-xs-min: 480px;  /* Extra small screen / phone */
+ $screen-sm-min: 768px;  /* Small screen / tablet */
+ $screen-md-min: 992px;  /* Medium screen / desktop */
+ $screen-lg-min: 1200px; /* Large screen / wide desktop */
+
+/*
+ * Animations
+ * ========================================================================== */
+
+ $animation-swift-out: .45s cubic-bezier(0.3, 1, 0.4, 1) 0s;

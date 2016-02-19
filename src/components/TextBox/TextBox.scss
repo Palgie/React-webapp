@@ -1,0 +1,12 @@
+@import '../variables.scss';
+
+.root input {
+  padding: $base-input-padding;
+  border-radius: $base-input-border-radius;
+  border: $base-input-border;
+  display: block;
+  width: $base-input-width;
+  color: $palette-black-base;
+}
+
+.input { }

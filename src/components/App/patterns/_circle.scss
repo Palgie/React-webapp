@@ -1,0 +1,27 @@
+@mixin circle($width, $color) {
+  width: $width;
+  height: $width;
+  background: $color;
+  -webkit-border-radius: $width/2;
+     -moz-border-radius: $width/2;
+          border-radius: $width/2;
+
+}
+
+.pattern__circle {
+
+  &-tiny {
+    @include circle(5px, palette(gray));
+    display: inline-block;
+  }
+
+  &-small {
+    @include circle(26px, palette(gray, light));
+    display: inline-block;
+  }
+
+  &-medium {
+    @include circle(50px, palette(gray, light));
+    display: inline-block;
+  }
+}

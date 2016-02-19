@@ -1,0 +1,32 @@
+@import '../variables.scss';
+
+.root {
+
+}
+
+.brand {
+  width: 100%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.logo {
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+.brandText {
+  color: #000;
+  font-size: $typesize-base;
+  line-height: 4;
+}
+
+.profile {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}

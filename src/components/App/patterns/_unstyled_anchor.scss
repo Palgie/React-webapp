@@ -1,0 +1,6 @@
+/// Displays an anchor as plain text.
+
+@mixin unstyled-anchor {
+  text-decoration: none;
+  color: inherit;
+}

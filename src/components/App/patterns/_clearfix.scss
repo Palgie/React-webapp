@@ -1,0 +1,15 @@
+/// Clearfix with an overflow.
+///
+/// @link http://github.com/h5bp/html5-boilerplate
+
+@mixin clearfix {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}

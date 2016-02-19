@@ -1,0 +1,54 @@
+@import '../variables.scss';
+
+.root {
+  display: inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  height: $button-base-height;
+  border-radius: $button-base-rounding;
+  font-size: $typesize-base;
+  background-color: $palette-brand-base;
+  color: $palette-brand-text;
+  -webkit-transition: $button-base-transition;
+  transition: $button-base-transition;
+  padding: $button-base-padding;
+  font-family: $font-regular;
+}
+
+.root:focus {
+  outline: 0;
+}
+
+.transparent {
+  background-color: transparent;
+  color: $palette-brand-base;
+  border-radius: none;
+  padding: 0;
+  margin: 0;
+  height: auto;
+  width: auto;
+}
+
+.warning {
+  color: $palette-red-base;
+  float: right;
+}
+
+.short {
+  padding: 0 30px;
+}
+
+.small {
+  font-size: $typesize-small;
+}

@@ -1,0 +1,48 @@
+@import '../variables.scss';
+
+$stroke: 1px solid $palette-gray-light;
+$radius: 20px;
+
+.root {
+  text-align: center;
+}
+
+.tabs {
+  display: inline-block;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.tabs:after {
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.tab {
+  cursor: pointer;
+  color: $palette-gray-base;
+  padding: 10px 30px;
+  border-top: $stroke;
+  border-bottom: $stroke;
+  border-left: $stroke;
+  float: left;
+  font-size: $typesize-x-small;
+  line-height: 1em;
+}
+
+.tab:last-child {
+  border-right: $stroke;
+  border-radius: 0 $radius $radius 0;
+}
+
+.tab:first-child {
+  border-radius: $radius 0 0 $radius;
+}
+
+.tab.active {
+  background: $palette-white-base;
+  color: $palette-brand-base;
+}

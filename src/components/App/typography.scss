@@ -1,0 +1,19 @@
+body {
+  font-size: typesize('base');
+  font-family: font('maison');
+  line-height: 1.4;
+}
+
+a {
+  color: palette(brand);
+}
+
+p {
+  margin-top: 0;
+}
+
+hr {
+  border : 0;
+  height : 1px;
+  border-top: 1px solid palette(gray, light);
+}
